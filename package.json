@@ -1,0 +1,26 @@
+{
+  "name": "poe-service-stats",
+  "version": "0.1.0",
+  "description": "generic counting service",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/poegroup/poe-service-stats.git"
+  },
+  "keywords": [
+    "service"
+  ],
+  "author": "Cameron Bytheway <bytheway.cameron@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/poegroup/poe-service-stats/issues"
+  },
+  "homepage": "https://github.com/poegroup/poe-service-stats",
+  "dependencies": {
+    "poe-service-node": "^0.1.0",
+    "urlsafe-base64": "^1.0.0"
+  }
+}
